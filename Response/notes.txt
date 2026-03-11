@@ -1,0 +1,2 @@
+Learnt about chaining of response with view, download, redirect
+Started bootstrap for CSS - configured welcome.blade.php (view)
