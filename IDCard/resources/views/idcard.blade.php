@@ -33,9 +33,25 @@
         <strong>Contact:</strong> {{ $contact }} <br>
         <strong>Address:</strong> {{ $address }} <br>
         <strong>Status:</strong> {{ $status }}
+        <br>
+        <strong>Pass/Fail:</strong> {{ $percentage>40?"Pass":"Fail" }}
     </p>
 
   </div>
+
+</div>
+
+<div>
+    <?php
+    print_r($studentList)?>
+</div>
+<div class="container mt-4">
+    
+    <h4>Student List</h4>
+
+    @foreach ($studentList as $stud)
+        <h6>{{ $stud}}</h6>
+    @endforeach
 
 </div>
 

@@ -1,0 +1,7 @@
+Passing data (variable, integer, array) to views:
+1. associative array
+2. with chaining
+3. compact
+4. with variable
+
+Attaching headers to the route and on landing page
